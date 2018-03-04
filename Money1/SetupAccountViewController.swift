@@ -119,7 +119,7 @@ class SetupAccountViewController: UIViewController {
 	
 	private func updateAccountInfo() {
 		guard let id = account?.id, let accName = nametextField.text,
-			let initAmount = Double(initAmountTextField.text!) else {
+			var initAmount = Double(initAmountTextField.text!) else {
 				let controller = UIAlertController(title: isCreatAccount ? "新增" : "更新", message: "請輸入完整資訊", preferredStyle: .alert)
 				let action = UIAlertAction(title: "確定", style: .cancel, handler: nil)
 				controller.addAction(action)
@@ -127,7 +127,9 @@ class SetupAccountViewController: UIViewController {
 				return
 		}
 		
+		let max:Double = 1000000000000
 		if var account = account {
+			initAmount = initAmount > max ? max : initAmount
 			let difference =  initAmount - account.initAmount
 			account.balance += difference
 			let cond = "id == \(id)"
@@ -149,10 +151,12 @@ class SetupAccountViewController: UIViewController {
 	
 	private func creatAccount() {
 		guard let accName = nametextField.text,
-			let initAmount = Double(initAmountTextField.text!) else {
+			var initAmount = Double(initAmountTextField.text!) else {
 				return
 		}
 		
+		let max: Double = 1000000000000
+		initAmount = initAmount > max ? max : initAmount
 		let rowInfo = [
 			"accountname":"'\(accName)'",
 			"balance":"\(initAmount)",
