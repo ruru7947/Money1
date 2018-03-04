@@ -1,0 +1,12 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "7c159f97be1fc29661b863d374acebf7"
+build_time: [554543248, 517596000]
+inputs:
+  "/Users/ruru/Desktop/Money1/Money1/CategoryCollectionViewCell.swift": [554273994, 0]
+  "/Users/ruru/Desktop/Money1/Money1/DayRecordTableViewCell.swift": [554274248, 0]
+  "/Users/ruru/Desktop/Money1/Money1/FancyButton.swift": [554171944, 0]
+  "/Users/ruru/Desktop/Money1/Money1/myUITextField.swift": [554456217, 0]
+  "/Users/ruru/Desktop/Money1/Money1/ConsumptionCategory.swift": [554277656, 0]
+  "/Users/ruru/Desktop/Money1/Money1/ViewController.swift": [554543241, 0]
+  "/Users/ruru/Desktop/Money1/Money1/AppDelegate.swift": [554184668, 0]
+  "/Users/ruru/Desktop/Money1/Money1/UserConsumptionInfo.swift": [554283472, 0]
