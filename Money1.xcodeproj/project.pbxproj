@@ -33,7 +33,6 @@
 		939E593D1F284CB2005A7306 /* myUITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939E593C1F284CB2005A7306 /* myUITextField.swift */; };
 		93B34C621F49358B000F21BE /* AnnotationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B34C611F49358B000F21BE /* AnnotationViewController.swift */; };
 		93D9719C204299AA003D7915 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D9719B204299AA003D7915 /* DataModel.swift */; };
-		93D971A02043D54E003D7915 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D9719F2043D54E003D7915 /* LoginViewController.swift */; };
 		93D971A22044178E003D7915 /* PasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D971A12044178E003D7915 /* PasswordViewController.swift */; };
 		93D971A420443F73003D7915 /* DotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D971A320443F73003D7915 /* DotView.swift */; };
 		93D971A620446B17003D7915 /* PasswordOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D971A520446B17003D7915 /* PasswordOption.swift */; };
@@ -78,7 +77,6 @@
 		939E593C1F284CB2005A7306 /* myUITextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myUITextField.swift; sourceTree = "<group>"; };
 		93B34C611F49358B000F21BE /* AnnotationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnotationViewController.swift; sourceTree = "<group>"; };
 		93D9719B204299AA003D7915 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
-		93D9719F2043D54E003D7915 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		93D971A12044178E003D7915 /* PasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordViewController.swift; sourceTree = "<group>"; };
 		93D971A320443F73003D7915 /* DotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotView.swift; sourceTree = "<group>"; };
 		93D971A520446B17003D7915 /* PasswordOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordOption.swift; sourceTree = "<group>"; };
@@ -153,7 +151,6 @@
 				934652F21F3D844300F5FDE7 /* monthRecordTableViewController.swift */,
 				9321D2E81F4125A900240B3B /* overViewTableViewController.swift */,
 				934051741F55458000C1C87F /* AccountViewController.swift */,
-				93D9719F2043D54E003D7915 /* LoginViewController.swift */,
 				93F23A342046A2F90059F0A6 /* SetupAccountViewController.swift */,
 			);
 			name = viewController;
@@ -393,7 +390,6 @@
 				9324B5491F47544F00C436C0 /* NewCategoryViewController.swift in Sources */,
 				9334E3711F36C0C300A27EBE /* CategorySelectCollectionViewCell.swift in Sources */,
 				93D971A22044178E003D7915 /* PasswordViewController.swift in Sources */,
-				93D971A02043D54E003D7915 /* LoginViewController.swift in Sources */,
 				DD7691561F25AADC008F5F0A /* AppDelegate.swift in Sources */,
 				9324B5151F4676BD00C436C0 /* SetupTableViewController.swift in Sources */,
 				938600111F336D2700C840CC /* editRecordViewController.swift in Sources */,

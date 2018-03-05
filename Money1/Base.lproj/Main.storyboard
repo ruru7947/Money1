@@ -1450,28 +1450,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.92156862750000001" green="0.94901960780000005" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <view key="tableHeaderView" contentMode="scaleToFill" id="I94-Be-kHZ">
-                            <rect key="frame" x="0.0" y="0.0" width="414" height="300"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <subviews>
-                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zFQ-Bf-GEu">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="300"/>
-                                    <color key="backgroundColor" red="0.92156862750000001" green="0.94901960780000005" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    <constraints>
-                                        <constraint firstAttribute="height" constant="300" id="0fz-h4-nFg"/>
-                                    </constraints>
-                                </view>
-                            </subviews>
-                            <color key="backgroundColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            <constraints>
-                                <constraint firstItem="zFQ-Bf-GEu" firstAttribute="top" secondItem="I94-Be-kHZ" secondAttribute="top" id="H7C-48-deH"/>
-                                <constraint firstAttribute="trailing" secondItem="zFQ-Bf-GEu" secondAttribute="trailing" id="pPL-bN-k19"/>
-                                <constraint firstItem="zFQ-Bf-GEu" firstAttribute="leading" secondItem="I94-Be-kHZ" secondAttribute="leading" id="wp4-4z-OSi"/>
-                            </constraints>
-                        </view>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="Cell" rowHeight="50" id="Hjv-jf-y3K" customClass="monthRecordTableViewCell" customModule="Money1" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="328" width="414" height="50"/>
+                                <rect key="frame" x="0.0" y="28" width="414" height="50"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Hjv-jf-y3K" id="w4Y-Rd-VfN">
                                     <rect key="frame" x="0.0" y="0.0" width="376" height="49.666666666666664"/>

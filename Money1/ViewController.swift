@@ -95,7 +95,7 @@ class ViewController: UIViewController,UICollectionViewDelegate,UICollectionView
         title = "記帳" //navigationbar上的title
         selectedItemLabel.text = "請選擇類別"
         
-        //subView外
+        //subView外觀
         subView.layer.borderWidth = 1
         subView.layer.borderColor = #colorLiteral(red: 0.03921568627, green: 0.7411764706, blue: 0.6274509804, alpha: 1).cgColor
         subView2.layer.borderWidth = 0
