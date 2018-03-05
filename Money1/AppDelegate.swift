@@ -12,8 +12,6 @@ import GooglePlaces
 let myUserDefaults = UserDefaults.standard
 var db: SQLiteConnect!
 
-let loginViewController = LoginViewController()
-
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
