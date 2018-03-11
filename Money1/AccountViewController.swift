@@ -80,13 +80,8 @@ class AccountViewController: UIViewController,UICollectionViewDelegate,UICollect
 		let accountInitAmount = Double(accounts[indexPath.row]["accountInitAmount"]!)!
 		
 		var SelectedAccount = Account()
-		let range: Range<String.Index>
-		if name.count > 2 {
-			range = name.index(name.endIndex, offsetBy: 2 - name.count)..<name.endIndex
-			SelectedAccount.title = String(name[range])
-		} else {
-			SelectedAccount.title = name
-		}
+		
+		SelectedAccount.title = name
         SelectedAccount.id = accountId
 		SelectedAccount.balance = accountBalance
 		SelectedAccount.initAmount = accountInitAmount

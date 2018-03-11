@@ -473,8 +473,8 @@ class ViewController: UIViewController,UICollectionViewDelegate,UICollectionView
 				
 				let accName = String(cString: sqlite3_column_text(statement, 1))
 				if accName.count > 2 {
-					let stringIndex = accName.index(accName.startIndex, offsetBy: 2)
-					account!.title = accName.substring(to: stringIndex)
+					let range = accName.startIndex..<accName.index(accName.endIndex, offsetBy: 2 - accName.count)
+					account!.title = String(accName[range])
 				} else {
 					account!.title = accName
 				}
@@ -489,7 +489,6 @@ class ViewController: UIViewController,UICollectionViewDelegate,UICollectionView
 	
 	func getDefaultAccount() {
 		if let accName = myUserDefaults.object(forKey: "defaultAccountName") as? String {
-			print("\(accName)......")
 			acccountBalanceLabel.isHidden = false
 			setAccount(accName: accName)
 		} else {
